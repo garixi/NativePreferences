@@ -1,0 +1,27 @@
+{
+  "name": "com.cuoriilabs.nativepreferences",
+  "version": "0.0.1",
+  "description": "Plugin for read and write NSUsedDefaults and SystemPReferences",
+  "cordova": {
+    "id": "com.cuoriilabs.nativepreferences",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garixi/NativePreferences.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Giovanni Arixi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garixi/NativePreferences/issues"
+  },
+  "homepage": "https://github.com/garixi/NativePreferences#readme"
+}
