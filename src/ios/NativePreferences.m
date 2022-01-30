@@ -89,7 +89,7 @@
         if( dict){                       
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
             [defaults removeObjectForKey:key];
-            NSLog(@"Salvataggio Defaults : %@", [defaults synchronize]);
+            [defaults synchronize];
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@""];
         } else{
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@""];
